@@ -953,4 +953,4 @@ def convert_tpx3_files(
     for file in tqdm(fpaths, desc="Processing files"):
         convert_tpx_file(file, trim_correct=trim_mask, print_details=print_details, **kwargs)
 
-        
+

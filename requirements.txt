@@ -1,13 +1,33 @@
 # List required packages in this file, one per line.
-os
-pathlib
-typing
+
+# Core numeric / data libraries
 numpy
-numba
 pandas
-multiprocessing
-functools
-warnings
-glob
+scipy
+scikit-learn
+scikit-image
+
+# Performance / JIT
+numba
+
+# Visualization
+matplotlib
+seaborn
+pillow
+
+# Parquet / fast IO
+pyarrow
+fastparquet
+
+# Parallel / big-data helpers
+dask
 tqdm
-gc
+
+# REPL / notebooks / tooling
+ipython
+jupyterlab
+
+# Stats and extras
+statsmodels
+
+# ...add version pins if you need reproducible environments

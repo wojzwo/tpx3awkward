@@ -31,6 +31,12 @@ Docs
 
 * https://www.quantastro.bnl.gov/node/64
 
+
+HOW TO TODO
+----
+najpierw wlacz setup.py
+
+
 Validation example
 ------------------
 

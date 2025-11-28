@@ -18,3 +18,26 @@ exclude = '''
   | tests/data
 )/
 '''
+
+[project]
+name = "tpx3awkward"
+version = "0.0.0"
+description = "TPX3 data processing utilities"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "scikit-image",
+  "numba",
+  "matplotlib",
+  "seaborn",
+  "pillow",
+  "pyarrow",
+  "fastparquet",
+  "dask",
+  "tqdm",
+  "ipython",
+  "jupyterlab",
+  "statsmodels",
+]
